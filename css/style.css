@@ -165,7 +165,7 @@ h6 {
           flex: 1 1 auto;
   padding-top: 40px;
   padding-bottom: 40px;
-  width: 1100px;
+  width: 1070px;
   max-width: 100%;
   border-radius: 40px;
   background: #fcfbf7;
@@ -173,8 +173,202 @@ h6 {
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.05), 0 0 15px rgba(0, 0, 0, 0.05), 0 0 25px rgba(0, 0, 0, 0.05);
 }
 
+.page__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 [class*=__container] {
-  max-width: 1100px;
+  max-width: 1070px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 40px;
+}
+
+.sidebar {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 300px;
+          flex: 0 0 300px;
+  padding-right: 32px;
+}
+
+.profile-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 30px;
+  border-radius: 26px;
+  -webkit-box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.05);
+  background: #fff;
+}
+
+.profile-card__img {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  margin-bottom: 16px;
+  border-radius: 50%;
+  background: #fff;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.profile-card__img img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.profile-card__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: -0.05em;
+  margin-bottom: 16px;
+}
+
+.profile-card__speciality {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: -0.05em;
+  color: #F1B43E;
+}
+
+.profile-card__subtitle {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.03em;
+  margin-top: 8px;
+  margin-bottom: 5px;
+}
+
+.profile-card__text {
+  line-height: 18px;
+  letter-spacing: -0.05em;
+  color: #727272;
+}
+
+.profile-card__list {
+  padding-top: 16px;
+  margin-top: 16px;
+  border-top: 1px solid rgba(0, 0, 0, 0.03);
+}
+
+.profile-card__item:not(:last-child) {
+  margin-bottom: 3px;
+}
+
+.profile-card__link {
+  line-height: 18px;
+  letter-spacing: -0.05em;
+  color: #727272;
+  -webkit-transition: all 280ms linear;
+  -o-transition: all 280ms linear;
+  transition: all 280ms linear;
+}
+
+.profile-card__link:hover {
+  color: #F1B43E;
+}
+
+.skills {
+  margin-top: 32px;
+}
+
+.skills__title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: -0.05em;
+}
+
+.skills__list {
+  margin-top: 16px;
+}
+
+.skills__item:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.skills__tag {
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.05em;
+  color: #727272;
+}
+
+.skills__line {
+  margin-top: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.skills__line--top {
+  position: absolute;
+  height: 6px;
+  width: 0%;
+  top: 0;
+  left: 0;
+  background: #F1B43E;
+  -webkit-transition: all 280ms linear;
+  -o-transition: all 280ms linear;
+  transition: all 280ms linear;
+}
+
+.skills__line--back {
+  width: 100%;
+  height: 6px;
+  background: #e0dfdcb3;
+}
+
+@media (max-width: 768.98px) {
+  .wrapper {
+    padding: 0;
+  }
+
+  .page {
+    border-radius: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  [class*=__container] {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (max-width: 768.98px) and (max-width: 1200px) {
+  .page {
+    padding-top: calc(10px + 30 * ((100vw - 320px) / 880));
+  }
+
+  .page {
+    padding-bottom: calc(10px + 30 * ((100vw - 320px) / 880));
+  }
+
+  [class*=__container] {
+    padding-left: calc(10px + 30 * ((100vw - 320px) / 880));
+  }
+
+  [class*=__container] {
+    padding-right: calc(10px + 30 * ((100vw - 320px) / 880));
+  }
 }
