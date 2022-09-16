@@ -13,3 +13,15 @@ export function isWebp() {
     document.documentElement.classList.add(className)
   })
 }
+
+export function setSkillsRate() {
+  const skillsLine = document.querySelectorAll('.skills__line--top')
+
+  skillsLine.forEach((skill) => {
+    const rate = skill.dataset.length
+
+    setTimeout(() => {
+      skill.style.width = `${rate}%`
+    }, 500)
+  })
+}
