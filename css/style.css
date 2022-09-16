@@ -187,9 +187,9 @@ h6 {
 
 .sidebar {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 300px;
-          flex: 0 0 300px;
-  padding-right: 32px;
+      -ms-flex: 0 0 310px;
+          flex: 0 0 310px;
+  padding-right: 40px;
 }
 
 .profile-card {
@@ -235,8 +235,8 @@ h6 {
 .profile-card__title {
   font-weight: 700;
   font-size: 24px;
+  text-transform: uppercase;
   line-height: 26px;
-  letter-spacing: -0.05em;
   margin-bottom: 16px;
 }
 
@@ -244,7 +244,6 @@ h6 {
   font-weight: 500;
   font-size: 16px;
   line-height: 21px;
-  letter-spacing: -0.05em;
   color: #F1B43E;
 }
 
@@ -259,7 +258,6 @@ h6 {
 
 .profile-card__text {
   line-height: 18px;
-  letter-spacing: -0.05em;
   color: #727272;
 }
 
@@ -275,7 +273,6 @@ h6 {
 
 .profile-card__link {
   line-height: 18px;
-  letter-spacing: -0.05em;
   color: #727272;
   -webkit-transition: all 280ms linear;
   -o-transition: all 280ms linear;
@@ -291,10 +288,21 @@ h6 {
 }
 
 .skills__title {
+  position: relative;
   font-weight: 500;
   font-size: 20px;
+  text-transform: uppercase;
   line-height: 26px;
-  letter-spacing: -0.05em;
+}
+
+.skills__title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  background: #323232;
+  width: 12px;
 }
 
 .skills__list {
@@ -308,7 +316,6 @@ h6 {
 .skills__tag {
   font-weight: 500;
   line-height: 18px;
-  letter-spacing: -0.05em;
   color: #727272;
 }
 
@@ -334,6 +341,88 @@ h6 {
   width: 100%;
   height: 6px;
   background: #e0dfdcb3;
+}
+
+.content__block {
+  margin-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.content__title {
+  position: relative;
+  font-weight: 500;
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+
+.content__title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  background: #323232;
+  width: 12px;
+}
+
+.content__article {
+  line-height: 140%;
+  font-size: 20px;
+  color: #727272;
+}
+
+.experience:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.experience__title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 21px;
+  color: #F1B43E;
+  margin-bottom: 8px;
+}
+
+.experience__date {
+  display: inline-block;
+  text-transform: uppercase;
+  color: #727272;
+  margin-bottom: 8px;
+}
+
+.experience__project {
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  color: #727272;
+}
+
+.experience__project a {
+  text-decoration: underline;
+  padding-left: 8px;
+  line-height: 18px;
+  color: #727272;
+  -webkit-transition: all 280ms linear;
+  -o-transition: all 280ms linear;
+  transition: all 280ms linear;
+}
+
+.experience__project a:hover {
+  text-decoration: none;
+  color: #F1B43E;
+}
+
+.experience__article {
+  line-height: 140%;
+  color: #727272;
 }
 
 @media (max-width: 768.98px) {
