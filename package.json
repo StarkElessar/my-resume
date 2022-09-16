@@ -9,7 +9,9 @@
     "build": "gulp build --build",
     "zip": "gulp deployZIP --build",
     "deploy": "gulp deployFTP --build",
-    "svgSprive": "gulp svgSprive"
+    "svgSprive": "gulp svgSprive",
+    "deployBuild": "gh-pages -d dist",
+    "predeploy": "npm run gulp build --build"
   },
   "repository": {
     "type": "git",
@@ -35,6 +37,7 @@
     "browser-sync": "^2.27.7",
     "del": "^6.0.0",
     "fs": "^0.0.1-security",
+    "gh-pages": "^4.0.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
