@@ -8,14 +8,14 @@
     "dev": "gulp",
     "build": "gulp build --build",
     "zip": "gulp deployZIP --build",
-    "deploy": "gulp deployFTP --build",
+    "deployFTP": "gulp deployFTP --build",
     "svgSprive": "gulp svgSprive",
-    "deployBuild": "gh-pages -d dist",
-    "predeploy": "npm run gulp build --build"
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/StarkElessar/gulp-2022.git"
+    "url": "git+https://github.com/StarkElessar/my-resume"
   },
   "keywords": [
     "gulp",
