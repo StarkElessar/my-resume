@@ -1,7 +1,7 @@
 {
-  "name": "gulp-2022",
+  "name": "resume-html",
   "version": "1.0.0",
-  "description": "Сборка Gulp-2022 от Жени Андриканича, автор канала 'Фрилансер по жизни'.",
+  "description": "Резюме, адаптивная вёрстка",
   "main": "gulpfile.js",
   "type": "module",
   "scripts": {
@@ -21,14 +21,16 @@
     "js",
     "css",
     "scss",
-    "html"
+    "html",
+    "cv",
+    "resume"
   ],
-  "author": "FLS",
+  "author": "Sergei Chevdar <serj.elessar@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/StarkElessar/gulp-2022/issues"
   },
-  "homepage": "https://github.com/StarkElessar/gulp-2022#readme",
+  "homepage": "https://StarkElessar.github.com/my-resume",
   "devDependencies": {
     "browser-sync": "^2.27.7",
     "del": "^6.0.0",
@@ -58,10 +60,9 @@
     "gulp-webpcss": "^1.1.1",
     "gulp-zip": "^5.1.0",
     "sass": "^1.45.1",
-    "swiper": "^7.3.4",
     "vinyl-ftp": "^0.6.1",
     "webp-converter": "^2.2.3",
     "webpack": "^5.65.0",
     "webpack-stream": "^7.0.0"
-  },
+  }
 }
