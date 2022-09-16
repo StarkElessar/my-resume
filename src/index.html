@@ -1,16 +1,326 @@
 <!DOCTYPE html>
 <html lang="en">
-  @@include('html/head.html', {
-    'title': 'Resume: Sergei Chevdar'
-  })
-  <body>
-    <div class="wrapper">
-      @@include('html/header.html', {})
-      <main class="page">
-        
-      </main>
-      @@include('html/footer.html', {})
-    </div>
-    <script src="js/app.min.js"></script>
-  </body>
-</html> 
+@@include('html/head.html', {
+'title': 'Resume: Sergei Chevdar'
+})
+
+<body>
+  <div class="wrapper">
+    <main class="page">
+      <div class="page__container">
+        <aside class="page__sidebar sidebar">
+          <div class="sidebar__profile-card profile-card">
+            <div class="profile-card__img">
+              <img src="./images/avatar.jpg" alt="">
+            </div>
+            <h3 class="profile-card__speciality">Junior Front-End Developer</h3>
+            <h1 class="profile-card__title">Sergei Chevdar</h1>
+            <h4 class="profile-card__subtitle">Nationality</h4>
+            <span class="profile-card__text">Ukrainian</span>
+            <h4 class="profile-card__subtitle">Date / Place of birth</h4>
+            <span class="profile-card__text">09.08.1995</span>
+            <span class="profile-card__text">Ukraine, Pavlograd</span>
+            <ul class="profile-card__list">
+              <li class="profile-card__item">
+                <a class="profile-card__link" title="You can call Me" href="tel:+375297266821">
+                  +375 (29) 726-68-21
+                </a>
+              </li>
+              <li class="profile-card__item">
+                <a class="profile-card__link" target="_blank" title="Location"
+                  href="https://goo.gl/maps/veSXY6EXHmaFC5LS9">
+                  Minsk, Belarus
+                </a>
+              </li>
+              <li class="profile-card__item">
+                <a class="profile-card__link" title="Send Mail" target="_blank" href="mailto:serj.elessar@gmail.com">
+                  Email
+                </a>
+              </li>
+              <li class="profile-card__item">
+                <a class="profile-card__link" title="Link to GitHub" target="_blank"
+                  href="https://github.com/StarkElessar">
+                  GitHub
+                </a>
+              </li>
+              <li class="profile-card__item">
+                <a class="profile-card__link" title="Send Mail to Telegram" target="_blank"
+                  href="https://t.me/StarkElessar">
+                  Telegram
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="sidebar__skills skills">
+            <h2 class="skills__title">Skills</h2>
+            <ul class="skills__list">
+              <li class="skills__item">
+                <div class="skills__tag">HTML</div>
+                <div class="skills__line">
+                  <div class="skills__line--top" data-length="100"></div>
+                  <div class="skills__line--back"></div>
+                </div>
+              </li>
+              <li class="skills__item">
+                <div class="skills__tag">CSS</div>
+                <div class="skills__line">
+                  <div class="skills__line--top" data-length="100"></div>
+                  <div class="skills__line--back"></div>
+                </div>
+              </li>
+              <li class="skills__item">
+                <div class="skills__tag">Responsive Design</div>
+                <div class="skills__line">
+                  <div class="skills__line--top" data-length="100"></div>
+                  <div class="skills__line--back"></div>
+                </div>
+              </li>
+              <li class="skills__item">
+                <div class="skills__tag">jQuery</div>
+                <div class="skills__line">
+                  <div class="skills__line--top" data-length="36"></div>
+                  <div class="skills__line--back"></div>
+                </div>
+              </li>
+              <li class="skills__item">
+                <div class="skills__tag">JavaScript</div>
+                <div class="skills__line">
+                  <div class="skills__line--top" data-length="61"></div>
+                  <div class="skills__line--back"></div>
+                </div>
+              </li>
+              <li class="skills__item">
+                <div class="skills__tag">React.js</div>
+                <div class="skills__line">
+                  <div class="skills__line--top" data-length="65"></div>
+                  <div class="skills__line--back"></div>
+                </div>
+              </li>
+              <li class="skills__item">
+                <div class="skills__tag">TypeScript</div>
+                <div class="skills__line">
+                  <div class="skills__line--top" data-length="45"></div>
+                  <div class="skills__line--back"></div>
+                </div>
+              </li>
+              <li class="skills__item">
+                <div class="skills__tag">Redux</div>
+                <div class="skills__line">
+                  <div class="skills__line--top" data-length="61"></div>
+                  <div class="skills__line--back"></div>
+                </div>
+              </li>
+              <li class="skills__item">
+                <div class="skills__tag">Redux Toolkit</div>
+                <div class="skills__line">
+                  <div class="skills__line--top" data-length="40"></div>
+                  <div class="skills__line--back"></div>
+                </div>
+              </li>
+              <li class="skills__item">
+                <div class="skills__tag">Express.js</div>
+                <div class="skills__line">
+                  <div class="skills__line--top" data-length="30"></div>
+                  <div class="skills__line--back"></div>
+                </div>
+              </li>
+              <li class="skills__item">
+                <div class="skills__tag">PostgreSQL</div>
+                <div class="skills__line">
+                  <div class="skills__line--top" data-length="20"></div>
+                  <div class="skills__line--back"></div>
+                </div>
+              </li>
+              <li class="skills__item">
+                <div class="skills__tag">MongoDB</div>
+                <div class="skills__line">
+                  <div class="skills__line--top" data-length="16"></div>
+                  <div class="skills__line--back"></div>
+                </div>
+              </li>
+              <li class="skills__item">
+                <div class="skills__tag">Ruby on Rails</div>
+                <div class="skills__line">
+                  <div class="skills__line--top" data-length="20"></div>
+                  <div class="skills__line--back"></div>
+                </div>
+              </li>
+              <li class="skills__item">
+                <div class="skills__tag">Git</div>
+                <div class="skills__line">
+                  <div class="skills__line--top" data-length="70"></div>
+                  <div class="skills__line--back"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="sidebar__skills skills">
+            <h2 class="skills__title">Languages</h2>
+            <ul class="skills__list">
+              <li class="skills__item">
+                <div class="skills__tag">English</div>
+                <div class="skills__line">
+                  <div class="skills__line--top" data-length="25"></div>
+                  <div class="skills__line--back"></div>
+                </div>
+              </li>
+              <li class="skills__item">
+                <div class="skills__tag">Russian</div>
+                <div class="skills__line">
+                  <div class="skills__line--top" data-length="95"></div>
+                  <div class="skills__line--back"></div>
+                </div>
+              </li>
+              <li class="skills__item">
+                <div class="skills__tag">Ukrainian</div>
+                <div class="skills__line">
+                  <div class="skills__line--top" data-length="80"></div>
+                  <div class="skills__line--back"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </aside>
+        <div class="page__content content">
+          <div class="content__block">
+            <h2 class="content__title">About Me</h2>
+            <p class="content__article">
+              I am enthusiastic frontend developer interested in building usable, useful,
+              well-constructed websites and applications. I am fast learner and can quickly integrate
+              into a team and provide value to the company and the customers. Seeking to further
+              improve my skills to become strong software engineer.
+            </p>
+          </div>
+          <div class="content__block">
+            <h2 class="content__title">Employment history</h2>
+            <div class="experience">
+              <h3 class="experience__title">Front-end developer</h3>
+              <span class="experience__date">June 2021 — Present</span>
+              <div class="experience__project">
+                Project:
+                <a href="http://xn--80alkatcnx2f.xn--90ais/">урожайный.бел</a>
+              </div>
+              <p class="experience__article">
+                <strong>Responsibility:</strong> Creating design and website from scratch. Maintaining and uploading to
+                hosting. Currently working on rewriting whole website to React JS.
+              </p>
+              <p class="experience__article">
+                <strong>Tech stack:</strong> HTML, CSS, JavaScript, React JS.
+              </p>
+            </div>
+            <div class="experience">
+              <h3 class="experience__title">Front-end developer</h3>
+              <span class="experience__date">November 2017 — June 2021</span>
+              <div class="experience__project">
+                Project:
+                <a href="https://qplast.by/">qplast.by</a>
+              </div>
+              <p class="experience__article">
+                <strong>Responsibility:</strong> Creating design and website from scratch. Maintaining and uploading to
+                hosting.
+              </p>
+              <p class="experience__article">
+                <strong>Tech stack:</strong> HTML, CSS, JavaScript, JQuery, WordPress.
+              </p>
+            </div>
+          </div>
+          <div class="content__block">
+            <h2 class="content__title">Education</h2>
+            <div class="experience">
+              <h3 class="experience__title">Bachelor, Technical School "National Mining University", Pavlograd</h3>
+              <span class="experience__date">September 2011 — June 2015</span>
+              <p class="experience__article">
+                <strong>Computer Engineering Faculty</strong>
+              </p>
+            </div>
+          </div>
+          <div class="content__block">
+            <h2 class="content__title">Courses</h2>
+            <div class="experience">
+              <h3 class="experience__title">JavaScript + React, Udemy</h3>
+              <span class="experience__date">August 2021 — Present</span>
+            </div>
+            <div class="experience">
+              <h3 class="experience__title">React Hooks in details, Andrii Polishchuk - Software Engineer</h3>
+              <span class="experience__date">December 2021 — March 2022</span>
+            </div>
+            <div class="experience">
+              <h3 class="experience__title">React JS - Way of the Samurai, IT-KAMASUTRA</h3>
+              <span class="experience__date">July 2021 — December 2021</span>
+            </div>
+            <div class="experience">
+              <h3 class="experience__title">Introduction to programming, Hexlet</h3>
+              <span class="experience__date">March 2021 — May 2021</span>
+            </div>
+            <div class="experience">
+              <h3 class="experience__title">Web layout designer, WayUp</h3>
+              <span class="experience__date">January 2021 — February 2021</span>
+            </div>
+          </div>
+          <div class="content__block">
+            <h2 class="content__title">References</h2>
+            <div class="experience">
+              <h3 class="experience__title">Qplast React App</h3>
+              <span class="experience__date">June 2022 — Present</span>
+              <div class="experience__project">
+                Project:
+                <a href="https://starkelessar.github.io/qplast-react">React App</a>
+              </div>
+              <p class="experience__article">
+                Product catalog and web information application for production.
+              </p>
+              <p class="experience__article">
+                <strong>Tech stack:</strong> React, TypeScript, Redux, React Router Dom.
+              </p>
+            </div>
+            <div class="experience">
+              <h3 class="experience__title">Mini Catalog React App</h3>
+              <span class="experience__date">July 2022 — August 2022</span>
+              <div class="experience__project">
+                Project:
+                <a href="https://mini-catalog-shop-react.herokuapp.com/">React App</a>
+              </div>
+              <p class="experience__article">
+                Mini online store catalog.
+              </p>
+              <p class="experience__article">
+                <strong>Tech stack:</strong> React JS, Redux, Redux Thunk, React Router Dom, React Icons, JSON Server, Axios.
+              </p>
+            </div>
+            <div class="experience">
+              <h3 class="experience__title">Marketing company</h3>
+              <span class="experience__date">June 2022 — June 2022</span>
+              <div class="experience__project">
+                Project:
+                <a href="https://starkelessar.github.io/marketing-company-figma/dist">Marketing company</a>
+              </div>
+              <p class="experience__article">
+                HTML coding a responsive design
+              </p>
+              <p class="experience__article">
+                <strong>Tech stack:</strong> HTML, CSS, JavaScript, Swiper JS, Gulp.
+              </p>
+            </div>
+            <div class="experience">
+              <h3 class="experience__title">Catalog Landing Page</h3>
+              <span class="experience__date">June 2022 — June 2022</span>
+              <div class="experience__project">
+                Project:
+                <a href="https://starkelessar.github.io/shtenli-chainsaw/dist">Shtenli Chainsaw</a>
+              </div>
+              <p class="experience__article">
+                HTML coding a responsive design
+              </p>
+              <p class="experience__article">
+                <strong>Tech stack:</strong> HTML, CSS, JavaScript, Swiper JS, Gulp.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="js/app.min.js"></script>
+</body>
+
+</html>
