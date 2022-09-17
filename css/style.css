@@ -30,6 +30,30 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: FiraSansCondensed;
+  font-display: swap;
+  src: url("../fonts/FiraSansCondensed-Bold.woff2") format("woff2"), url("../fonts/FiraSansCondensed-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: FiraSansCondensed;
+  font-display: swap;
+  src: url("../fonts/FiraSansCondensed-Medium.woff2") format("woff2"), url("../fonts/FiraSansCondensed-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: FiraSansCondensed;
+  font-display: swap;
+  src: url("../fonts/FiraSansCondensed-Regular.woff2") format("woff2"), url("../fonts/FiraSansCondensed-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -234,7 +258,7 @@ h6 {
 
 .profile-card__title {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 21px;
   text-transform: uppercase;
   line-height: 26px;
   margin-bottom: 16px;
@@ -343,6 +367,10 @@ h6 {
   background: #e0dfdcb3;
 }
 
+.content {
+  position: relative;
+}
+
 .content__block {
   margin-bottom: 40px;
   display: -webkit-box;
@@ -422,6 +450,39 @@ h6 {
 
 .experience__article {
   line-height: 140%;
+  color: #727272;
+}
+
+.lang-group {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.lang-group__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.lang-group__item:not(:last-child) {
+  margin-right: 8px;
+}
+
+.lang-group__link {
+  line-height: 18px;
+  color: #d8d8d8;
+  -webkit-transition: all 280ms linear;
+  -o-transition: all 280ms linear;
+  transition: all 280ms linear;
+}
+
+.lang-group__link.active {
+  color: #F1B43E;
+}
+
+.lang-group__link:hover {
   color: #727272;
 }
 

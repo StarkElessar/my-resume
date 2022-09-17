@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.min.css?_v=20220917003208">
+  <link rel="stylesheet" href="css/style.min.css?_v=20220917170029">
   <title>Resume: Sergei Chevdar</title>
 </head>
 
@@ -18,12 +18,12 @@
               <picture><source srcset="./images/avatar.webp" type="image/webp"><img src="./images/avatar.jpg" alt=""></picture>
             </div>
             <h3 class="profile-card__speciality">Junior Front-End Developer</h3>
-            <h1 class="profile-card__title">Sergei Chevdar</h1>
-            <h4 class="profile-card__subtitle">Nationality</h4>
-            <span class="profile-card__text">Ukrainian</span>
-            <h4 class="profile-card__subtitle">Date / Place of birth</h4>
-            <span class="profile-card__text">09.08.1995</span>
-            <span class="profile-card__text">Ukraine, Pavlograd</span>
+            <h1 class="profile-card__title" data-lang="name">Sergei Chevdar</h1>
+            <h4 class="profile-card__subtitle" data-lang="nationality-tag">Nationality</h4>
+            <span class="profile-card__text" data-lang="nationality">Ukrainian</span>
+            <h4 class="profile-card__subtitle" data-lang="date-tag">Date / Place of birth</h4>
+            <span class="profile-card__text" data-lang="date">09.08.1995</span>
+            <span class="profile-card__text" data-lang="location-birth">Ukraine, Pavlograd</span>
             <ul class="profile-card__list">
               <li class="profile-card__item">
                 <a class="profile-card__link" title="You can call Me" href="tel:+375297266821">
@@ -32,7 +32,7 @@
               </li>
               <li class="profile-card__item">
                 <a class="profile-card__link" target="_blank" title="Location"
-                  href="https://goo.gl/maps/veSXY6EXHmaFC5LS9">
+                  href="https://goo.gl/maps/veSXY6EXHmaFC5LS9" data-lang="location">
                   Minsk, Belarus
                 </a>
               </li>
@@ -56,7 +56,7 @@
             </ul>
           </div>
           <div class="sidebar__skills skills">
-            <h2 class="skills__title">Skills</h2>
+            <h2 class="skills__title" data-lang="skills">Skills</h2>
             <ul class="skills__list">
               <li class="skills__item">
                 <div class="skills__tag">HTML</div>
@@ -159,24 +159,24 @@
             </ul>
           </div>
           <div class="sidebar__skills skills">
-            <h2 class="skills__title">Languages</h2>
+            <h2 class="skills__title" data-lang="lang">Languages</h2>
             <ul class="skills__list">
               <li class="skills__item">
-                <div class="skills__tag">English</div>
+                <div class="skills__tag" data-lang="eng">English</div>
                 <div class="skills__line">
                   <div class="skills__line--top" data-length="25"></div>
                   <div class="skills__line--back"></div>
                 </div>
               </li>
               <li class="skills__item">
-                <div class="skills__tag">Russian</div>
+                <div class="skills__tag" data-lang="rus">Russian</div>
                 <div class="skills__line">
                   <div class="skills__line--top" data-length="95"></div>
                   <div class="skills__line--back"></div>
                 </div>
               </li>
               <li class="skills__item">
-                <div class="skills__tag">Ukrainian</div>
+                <div class="skills__tag" data-lang="ukr">Ukrainian</div>
                 <div class="skills__line">
                   <div class="skills__line--top" data-length="80"></div>
                   <div class="skills__line--back"></div>
@@ -187,8 +187,21 @@
         </aside>
         <div class="page__content content">
           <div class="content__block">
-            <h2 class="content__title">About Me</h2>
-            <p class="content__article">
+            <div class="content__lang-group lang-group">
+              <ul class="lang-group__list">
+                <li class="lang-group__item">
+                  <a href="#ru" class="lang-group__link">RU</a>
+                </li>
+                <li class="lang-group__item">
+                  <a href="#en" class="lang-group__link">EN</a>
+                </li>
+                <li class="lang-group__item">
+                  <a href="#uk" class="lang-group__link">UK</a>
+                </li>
+              </ul>
+            </div>
+            <h2 class="content__title" data-lang="about">About Me</h2>
+            <p class="content__article" data-lang="about-text">
               I am enthusiastic frontend developer interested in building usable, useful,
               well-constructed websites and applications. I am fast learner and can quickly integrate
               into a team and provide value to the company and the customers. Seeking to further
@@ -324,7 +337,7 @@
       </div>
     </main>
   </div>
-  <script src="js/app.min.js?_v=20220917003208"></script>
+  <script src="js/app.min.js?_v=20220917170029"></script>
 </body>
 
 </html>

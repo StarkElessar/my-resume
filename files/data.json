@@ -1,0 +1,79 @@
+{
+  "languages": {
+    "title": {
+      "ru": "Резюме: Сергей Чевдарь",
+      "en": "Resume: Sergei Chevdar",
+      "uk": "Резюме: Сергій Чевдар"
+    },
+    "name": {
+      "ru": "Сергей Чевдарь",
+      "en": "Sergei Chevdar",
+      "uk": "Сергій Чевдар"
+    },
+    "nationality-tag": {
+      "ru": "Национальность",
+      "en": "Nationality",
+      "uk": "Національність"
+    },
+    "nationality": {
+      "ru": "Украинец",
+      "en": "Ukrainian",
+      "uk": "Українець"
+    },
+    "date-tag": {
+      "ru": "Дата / Место рождения",
+      "en": "Date / Place of birth",
+      "uk": "Дата / Місце народження"
+    },
+    "date": {
+      "ru": "09.08.1995",
+      "en": "09.08.1995",
+      "uk": "09.08.1995"
+    },
+    "location-birth": {
+      "ru": "Украина, Павлоград",
+      "en": "Ukraine, Pavlograd",
+      "uk": "Україна, Павлоград"
+    },
+    "location": {
+      "ru": "Минск, Беларусь",
+      "en": "Minsk, Belarus",
+      "uk": "Мінськ, Білорусь"
+    },
+    "skills": {
+      "ru": "Навыки",
+      "en": "Skills",
+      "uk": "Навички"
+    },
+    "lang": {
+      "ru": "Языки",
+      "en": "Languages",
+      "uk": "Мови"
+    },
+    "eng": {
+      "ru": "Английский",
+      "en": "English",
+      "uk": "Англійська"
+    },
+    "rus": {
+      "ru": "Русский",
+      "en": "Russian",
+      "uk": "Російська"
+    },
+    "ukr": {
+      "ru": "Украинский",
+      "en": "Ukrainian",
+      "uk": "Українська"
+    },
+    "about": {
+      "ru": "Обо мне",
+      "en": "About Me",
+      "uk": "Про мене"
+    },
+    "about-text": {
+      "ru": "Я увлеченный фронтенд-разработчик, заинтересованный в создании удобных, полезных, хорошо продуманных веб-сайтов и веб-приложений. Я быстро учусь и могу быстро влиться в команду и приносить пользу компании и клиентам. Стремлюсь еще больше улучшить свои навыки, чтобы стать сильным инженером-программистом.",
+      "en": "I am enthusiastic frontend developer interested in building usable, useful, well-constructed websites and applications. I am fast learner and can quickly integrate into a team and provide value to the company and the customers. Seeking to further improve my skills to become strong software engineer.",
+      "uk": "Я захоплений інтерфейсний розробник, зацікавлений у створенні корисних, добре побудованих веб-сайтів та веб додатків. Я швидко навчаюсь і можу швидко інтегруватися в команду та забезпечувати цінність компанії і її клієнтам. Прагну вдосконалити свої навички, щоб стати сильним інженером програмного забезпечення."
+    }
+  }
+}
