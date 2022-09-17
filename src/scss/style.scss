@@ -2,9 +2,11 @@
 @import 'config/mixins';
 @import 'config/vars';
 @import 'config/reset';
+@import 'config/scrollbar';
 @import 'config/global';
 
 @import 'layout/sidebar';
 @import 'layout/profile';
 @import 'layout/skills';
 @import 'layout/content';
+@import 'layout/lang';
