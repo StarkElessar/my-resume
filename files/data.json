@@ -74,6 +74,46 @@
       "ru": "Я увлеченный фронтенд-разработчик, заинтересованный в создании удобных, полезных, хорошо продуманных веб-сайтов и веб-приложений. Я быстро учусь и могу быстро влиться в команду и приносить пользу компании и клиентам. Стремлюсь еще больше улучшить свои навыки, чтобы стать сильным инженером-программистом.",
       "en": "I am enthusiastic frontend developer interested in building usable, useful, well-constructed websites and applications. I am fast learner and can quickly integrate into a team and provide value to the company and the customers. Seeking to further improve my skills to become strong software engineer.",
       "uk": "Я захоплений інтерфейсний розробник, зацікавлений у створенні корисних, добре побудованих веб-сайтів та веб додатків. Я швидко навчаюсь і можу швидко інтегруватися в команду та забезпечувати цінність компанії і її клієнтам. Прагну вдосконалити свої навички, щоб стати сильним інженером програмного забезпечення."
+    },
+    "history": {
+      "ru": "Занятость",
+      "en": "Employment history",
+      "uk": "Зайнятість"
+    },
+    "education": {
+      "ru": "Образование",
+      "en": "Education",
+      "uk": "Освіта"
+    },
+    "courses": {
+      "ru": "Курсы",
+      "en": "Courses",
+      "uk": "Курси"
+    },
+    "references": {
+      "ru": "Проекты",
+      "en": "References",
+      "uk": "Проекти"
+    },
+    "employment-date-1": {
+      "ru": "Июнь 2021 - Настоящее время",
+      "en": "June 2021 - Present",
+      "uk": "Червень 2021 - Теперішній час"
+    },
+    "project": {
+      "ru": "Проект:",
+      "en": "Project:",
+      "uk": "Проект:"
+    },
+    "responsibility": {
+      "ru": "Обязанность:",
+      "en": "Responsibility:",
+      "uk": "Відповідальність:"
+    },
+    "tech-stack": {
+      "ru": "Стек технологий:",
+      "en": "Tech stack:",
+      "uk": "Технічний стек:"
     }
   }
 }
