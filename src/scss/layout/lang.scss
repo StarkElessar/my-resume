@@ -1,0 +1,29 @@
+.lang-group {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  // .lang-group__list
+  &__list {
+    display: flex;
+  }
+  // .lang-group__item
+  &__item {
+    &:not(:last-child) {
+      margin-right: 8px;
+    }
+  }
+  // .lang-group__link
+  &__link {
+    line-height: 18px;
+    color: lighten(#727272, 40%);
+    transition: $standartTrans;
+    &.active {
+      color: $yellowColor;
+    }
+    &:hover {
+      color: #727272;
+      
+    }
+  }
+}
