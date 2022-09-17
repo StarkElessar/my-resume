@@ -36,7 +36,7 @@ export function setLang() {
     
     if (target && target.closest('.lang-group__link')) {
       location.href = target.getAttribute('href')
-      location.reload()
+      fetchLanguages()
       
       if (location.hash === target.getAttribute('href')) {
         links.forEach((link) => link.classList.remove('active'))
