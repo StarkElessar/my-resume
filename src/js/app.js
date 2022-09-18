@@ -1,4 +1,4 @@
-import * as flsFunctions from './modules/functions.js'
+import * as flsFunctions from './modules/functions'
 
 flsFunctions.isWebp()
 flsFunctions.setSkillsRate()
