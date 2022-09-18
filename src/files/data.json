@@ -114,6 +114,36 @@
       "ru": "Стек технологий:",
       "en": "Tech stack:",
       "uk": "Технічний стек:"
+    },
+    "responsibility-1": {
+      "ru": "Создание дизайна и веб-сайта с нуля. Сопровождение и загрузка на хостинг. В настоящее время переписываю весь сайт на React JS.",
+      "en": "Creating design and website from scratch. Maintaining and uploading to hosting. Currently working on rewriting whole website to React JS.",
+      "uk": "Створення дизайну та веб-сайту з нуля. Супровід та завантаження на хостинг. На даний час переписую весь сайт на React JS."
+    },
+    "employment-date-2": {
+      "ru": "Ноябрь 2017 — Июнь 2021",
+      "en": "November 2017 — June 2021",
+      "uk": "Листопад 2017 — Червень 2021"
+    },
+    "responsibility-2": {
+      "ru": "Создание дизайна и сайта с нуля. Ведение и загрузка в хостинг. На данный момент заканчиваю реализацию этого сайта, как веб-приложения на React JS",
+      "en": "Creating design and website from scratch. Maintaining and uploading to hosting.",
+      "uk": "Створення дизайну та сайту з нуля. Ведення та завантаження в хостинг. На даний час закінчую переписувати весь сайт на React JS."
+    },
+    "education-title": {
+      "ru": "Младший специалист, Техникум \"Национальный Горный Университет\", Павлоград",
+      "en": "Bachelor, Technical School \"National Mining University\", Pavlograd",
+      "uk": "Молодший спеціаліст, Технікум \"Національний Гірничий Університет\", Павлоград"
+    },
+    "education-date": {
+      "ru": "Сентябрь 2011 — Июнь 2015",
+      "en": "September 2011 — June 2015",
+      "uk": "Вересень 2011 — Червень 2015"
+    },
+    "education-name": {
+      "ru": "Факультет Комьютерной Инженерии",
+      "en": "Computer Engineering Faculty",
+      "uk": "Факультет Комп'ютерної Інженерії"
     }
   }
 }
