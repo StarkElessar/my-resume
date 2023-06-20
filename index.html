@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.min.css?_v=20220917195042">
+  <link rel="stylesheet" href="css/style.min.css?_v=20230620191141">
   <title>Resume: Sergei Chevdar</title>
 </head>
 
 <body>
   <div class="wrapper">
-    <main class="page">
+    <div class="page">
       <div class="page__container">
         <aside class="page__sidebar sidebar">
           <div class="sidebar__profile-card profile-card">
@@ -171,21 +171,21 @@
               <li class="skills__item">
                 <div class="skills__tag" data-lang="rus">Russian</div>
                 <div class="skills__line">
-                  <div class="skills__line--top" data-length="95"></div>
+                  <div class="skills__line--top" data-length="100"></div>
                   <div class="skills__line--back"></div>
                 </div>
               </li>
               <li class="skills__item">
                 <div class="skills__tag" data-lang="ukr">Ukrainian</div>
                 <div class="skills__line">
-                  <div class="skills__line--top" data-length="80"></div>
+                  <div class="skills__line--top" data-length="100"></div>
                   <div class="skills__line--back"></div>
                 </div>
               </li>
             </ul>
           </div>
         </aside>
-        <div class="page__content content">
+        <main class="page__content content">
           <div class="content__block">
             <div class="content__lang-group lang-group">
               <ul class="lang-group__list">
@@ -212,14 +212,17 @@
             <h2 class="content__title" data-lang="history">Employment history</h2>
             <div class="experience">
               <h3 class="experience__title">Front-end developer</h3>
-              <span class="experience__date">June 2021 — Present</span>
+              <span class="experience__date" data-lang="employment-date-1">June 2021 — Present</span>
               <div class="experience__project">
                 <span data-lang="project">Project:</span>
                 <a href="http://xn--80alkatcnx2f.xn--90ais/">урожайный.бел</a>
               </div>
               <p class="experience__article">
-                <strong data-lang="responsibility">Responsibility:</strong> Creating design and website from scratch. Maintaining and uploading to
-                hosting. Currently working on rewriting whole website to React JS.
+                <strong data-lang="responsibility">Responsibility:</strong>
+                <span data-lang="responsibility-1">
+                  Creating design and website from scratch. Maintaining and uploading to
+                  hosting. Currently working on rewriting whole website to React JS.
+                </span>
               </p>
               <p class="experience__article">
                 <strong data-lang="tech-stack">Tech stack:</strong> HTML, CSS, JavaScript, React JS.
@@ -227,14 +230,17 @@
             </div>
             <div class="experience">
               <h3 class="experience__title">Front-end developer</h3>
-              <span class="experience__date">November 2017 — June 2021</span>
+              <span class="experience__date" data-lang="employment-date-2">November 2017 — June 2021</span>
               <div class="experience__project">
                 <span data-lang="project">Project:</span>
                 <a href="https://qplast.by/">qplast.by</a>
               </div>
               <p class="experience__article">
-                <strong data-lang="responsibility">Responsibility:</strong> Creating design and website from scratch. Maintaining and uploading to
-                hosting.
+                <strong data-lang="responsibility">Responsibility:</strong>
+                <span data-lang="responsibility-2">
+                  Creating design and website from scratch. Maintaining and uploading to
+                  hosting.
+                </span>
               </p>
               <p class="experience__article">
                 <strong data-lang="tech-stack">Tech stack:</strong> HTML, CSS, JavaScript, JQuery, WordPress.
@@ -244,10 +250,10 @@
           <div class="content__block">
             <h2 class="content__title" data-lang="education">Education</h2>
             <div class="experience">
-              <h3 class="experience__title">Bachelor, Technical School "National Mining University", Pavlograd</h3>
-              <span class="experience__date">September 2011 — June 2015</span>
+              <h3 class="experience__title" data-lang="education-title">Bachelor, Technical School "National Mining University", Pavlograd</h3>
+              <span class="experience__date" data-lang="education-date">September 2011 — June 2015</span>
               <p class="experience__article">
-                <strong>Computer Engineering Faculty</strong>
+                <strong data-lang="education-name">Computer Engineering Faculty</strong>
               </p>
             </div>
           </div>
@@ -333,11 +339,14 @@
               </p>
             </div>
           </div>
-        </div>
+        </main>
       </div>
-    </main>
+    </div>
   </div>
-  <script src="js/app.min.js?_v=20220917195042"></script>
+  <div class="loader-container">
+    <div class="custom-loader"></div>
+  </div>
+  <script src="js/app.min.js?_v=20230620191141"></script>
 </body>
 
 </html>
