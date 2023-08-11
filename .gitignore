@@ -2,3 +2,4 @@
 /src/.temporary_cache
 /dist
 .vscode
+.idea

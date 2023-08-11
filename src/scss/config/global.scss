@@ -1,43 +1,50 @@
+.lock {
+	overflow: hidden;
+}
+
 .wrapper {
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background: #fff;
-  overflow: hidden;
-  @media (max-width: 768.98px) {
-    padding: 0;
-  }
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 40px;
+	background: #fff;
+	overflow: hidden;
+
+	@media (max-width: 768.98px) {
+		padding: 0;
+	}
 }
+
 .page {
-  flex: 1 1 auto;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  width: 990px + $mainOffset * 2;
-  max-width: 100%;
-  border-radius: 40px;
-  background: #fcfbf7;
-  box-shadow: 0 0 25px rgba(#000, 5%);
-  @media (max-width: 768.98px) {
-    border-radius: 0;
-    box-shadow: none;
-    @include adaptiveValue('padding-top', 40, 10, 1);
-    @include adaptiveValue('padding-bottom', 40, 10, 1);
-  }
-  &__container {
-    display: flex;
-  }
+	flex: 1 1 auto;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	width: 990px + $mainOffset * 2;
+	max-width: 100%;
+	border-radius: 40px;
+	background: #fcfbf7;
+	box-shadow: 0 0 25px rgba(#000, 5%);
+
+	@media (max-width: 768.98px) {
+		border-radius: 0;
+		box-shadow: none;
+		@include adaptiveValue("padding-top", 40, 10, 1);
+		@include adaptiveValue("padding-bottom", 40, 10, 1);
+	}
+
+	&__container {
+		display: flex;
+	}
 }
+
 [class*="__container"] {
-  max-width: 990px + $mainOffset * 2;
-  margin: 0 auto;
-  padding: 0 $mainOffset;
-  @media (max-width: 768.98px) {
-    @include adaptiveValue('padding-left', 40, 10, 1);
-    @include adaptiveValue('padding-right', 40, 10, 1);
-  }
+	max-width: 990px + $mainOffset * 2;
+	margin: 0 auto;
+	padding: 0 $mainOffset;
+
+	@media (max-width: 768.98px) {
+		@include adaptiveValue("padding-left", 40, 10, 1);
+		@include adaptiveValue("padding-right", 40, 10, 1);
+	}
 }
